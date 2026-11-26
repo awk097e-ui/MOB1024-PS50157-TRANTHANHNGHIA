@@ -41,4 +41,9 @@ public class Student {
                 + " | Ten SV: " + name
                 + " | Loai SV: " + type;
     }
+
+    public double getGpa() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getGpa'");
+    }
 }

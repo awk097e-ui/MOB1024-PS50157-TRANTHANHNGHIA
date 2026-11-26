@@ -1,4 +1,6 @@
-public class Studentticket extends Ticket{
+package Buoi1.src.Model;
+
+public class Studentticket extends Ticket {
     private int discountPercent;
 
     public Studentticket(String id, String moive, double basePrice, int discountPercent) {
@@ -13,10 +15,10 @@ public class Studentticket extends Ticket{
     public void setDiscountPercent(int discountPercent) {
         this.discountPercent = discountPercent;
     }
-    
+
     @Override
     public double finalPrice() {
         return getBasePrice() * (100 - discountPercent) / 100;
     }
-    
+
 }

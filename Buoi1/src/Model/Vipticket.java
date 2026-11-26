@@ -1,5 +1,5 @@
 
-package Model;
+package Buoi1.src.Model;
 
 public class Vipticket extends Ticket {
     private double surchargeRate;

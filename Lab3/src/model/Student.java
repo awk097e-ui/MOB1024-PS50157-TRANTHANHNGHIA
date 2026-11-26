@@ -1,5 +1,5 @@
 
-package Lab3.src.model;
+package model;
 
 public class Student {
 

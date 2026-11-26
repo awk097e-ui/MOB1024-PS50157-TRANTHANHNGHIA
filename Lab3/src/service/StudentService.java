@@ -1,5 +1,5 @@
 
-package Lab3.src.service;
+package service;
 
 import model.Student;
 import model.StudentType;
@@ -15,16 +15,16 @@ public class StudentService {
         private List<Student> students = new ArrayList<>();
 
         public StudentService() {
-                students.add(new Student("SV01", "Nghia", StudentType.REGULAR));
-                students.add(new Student("SV02", "An", StudentType.PART_TIME));
-                students.add(new Student("SV03", "Binh", StudentType.INTERNATIONAL));
-                students.add(new Student("SV04", "Cuong", StudentType.REGULAR));
-                students.add(new Student("SV05", "Dung", StudentType.PART_TIME));
-                students.add(new Student("SV06", "Hoa", StudentType.INTERNATIONAL));
-                students.add(new Student("SV07", "Minh", StudentType.REGULAR));
-                students.add(new Student("SV08", "Tuan", StudentType.INTERNATIONAL));
-                students.add(new Student("SV09", "Phuong", StudentType.PART_TIME, 3.7));
-                students.add(new Student("SV10", "Khanh", StudentType.INTERNATIONAL, 3.3));
+                students.add(new Student("SV01", "Nghia", StudentType.REGULAR, 0));
+                students.add(new Student("SV02", "An", StudentType.PART_TIME, 0));
+                students.add(new Student("SV03", "Binh", StudentType.INTERNATIONAL, 0));
+                students.add(new Student("SV04", "Cuong", StudentType.REGULAR, 0));
+                students.add(new Student("SV05", "Dung", StudentType.PART_TIME, 0));
+                students.add(new Student("SV06", "Hoa", StudentType.INTERNATIONAL, 0));
+                students.add(new Student("SV07", "Minh", StudentType.REGULAR, 0));
+                students.add(new Student("SV08", "Tuan", StudentType.INTERNATIONAL, 0));
+                students.add(new Student("SV09", "Phuong", StudentType.PART_TIME, 0));
+                students.add(new Student("SV10", "Khanh", StudentType.INTERNATIONAL, 0));
         }
 
         public void bai4() {

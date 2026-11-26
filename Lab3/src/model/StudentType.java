@@ -1,4 +1,4 @@
-package Lab3.src.model;
+package model;
 
 public enum StudentType {
     REGULAR,

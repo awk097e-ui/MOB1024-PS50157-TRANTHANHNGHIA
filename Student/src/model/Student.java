@@ -1,33 +1,47 @@
 package model;
-public class Student{
+
+public class Student {
     private String id;
     private String name;
     private double gpa;
-    public Student(String id, String name, double gpa){
+
+    public Student(String id, String name, StudentType regular) {
         this.id = id;
         this.name = name;
-        this.gpa = gpa;
+        this.gpa = regular;
     }
+
     public String getId() {
         return id;
     }
+
     public void setId(String id) {
         this.id = id;
     }
+
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public double getGpa() {
         return gpa;
     }
+
     public void setGpa(double gpa) {
         this.gpa = gpa;
     }
+
     @Override
     public String toString() {
-        return "%s    %s   %.2f".formatted(id, name, gpa); 
+        return "%s    %s   %.2f".formatted(id, name, gpa);
+    }
+
+    public StudentType getType() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getType'");
     }
 }
